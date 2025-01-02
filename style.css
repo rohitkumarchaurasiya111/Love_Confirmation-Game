@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(254, 228, 237);
+}
+
+.content {
+  flex: 1;
+  margin-top: 10%;
+}
+
+#teddy {
+  width: 150px;
+}
+
+.Description {
+  font-size: large;
+}
+
+.love_button {
+  margin: 10px;
+  background-color: #f699bd;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70px;
+}
+
+.love_button:hover,
+.love_button:focus {
+  background-color: #f082ac;
+  box-shadow: 2px 2px 10px rgb(235, 132, 149);
+}
+
+footer {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  text-align: center;
+  background-color: #f0f0f0c6;
+  padding: 16px;
+}
+
+/* Creator Information Styling */
+#CreatorInformation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+#CreatorInformation a {
+  color: rgb(92, 79, 79);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+#CreatorInformation a:hover {
+  color: #6b9dec; /* Hover color change */
+}
+
+#CreatorInformation i {
+  font-size: 1.5rem;
+}
+
+#movingButtion {
+  position: absolute;
+  transition: all 0.2s ease;
+}
+
+
+@media(max-width: 500px){
+    .content {
+        margin-top: 40%;
+      }
+}
