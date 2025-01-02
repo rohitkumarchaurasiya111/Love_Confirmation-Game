@@ -42,7 +42,7 @@ cd Love_Confirmation-Game
 
 Contributions are welcome! If you have ideas on how to enhance this application or want to report a bug, please feel free to open an issue or submit a pull request.
 
-## Connect with Us
+## Connect with Me
 
 Have feedback or need support? Contact me through:
 - [GitHub](https://github.com/rohitkumarchaurasiya111)
